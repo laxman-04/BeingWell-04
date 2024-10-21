@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anxiety Quiz - Beingwell</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <img src="/icons/logo.png" alt="Beingwell Logo" height="100" />
+      </div>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="stories.html">Personal Stories</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+        <div id="search-container">
+          <input type="text" placeholder="Search" id="searchBar" />
+        </div>
+      </nav>
+    </header>
+
+    <section id="quiz-content">
+      <h1>Anxiety Quiz</h1>
+      <p>
+        <strong>Instructions:</strong> Choose the option that best describes
+        your experience.
+      </p>
+      <form id="anxiety-quiz">
+        <div>
+          <p>1. I often feel nervous or anxious without a clear reason.</p>
+          <label><input type="radio" name="q1" value="0" /> A) Never</label
+          ><br />
+          <label><input type="radio" name="q1" value="1" /> B) Sometimes</label
+          ><br />
+          <label><input type="radio" name="q1" value="2" /> C) Always</label>
+        </div>
+        <div>
+          <p>
+            2. I find it hard to relax, even when there is no pressure or
+            deadline.
+          </p>
+          <label><input type="radio" name="q2" value="0" /> A) Never</label
+          ><br />
+          <label><input type="radio" name="q2" value="1" /> B) Sometimes</label
+          ><br />
+          <label><input type="radio" name="q2" value="2" /> C) Always</label>
+        </div>
+        <div>
+          <p>3. I worry excessively about everyday situations.</p>
+          <label><input type="radio" name="q3" value="0" /> A) Never</label
+          ><br />
+          <label><input type="radio" name="q3" value="1" /> B) Sometimes</label
+          ><br />
+          <label><input type="radio" name="q3" value="2" /> C) Always</label>
+        </div>
+        <button type="submit">Submit Quiz</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="contact-section">
+        <h2>How can we help?</h2>
+        <div class="contact-details">
+          <div>
+            <strong>Call us</strong><br />
+            <a href="tel:+9779811452565">+977-9811452565</a>
+          </div>
+          <div>
+            <strong>Send us a message</strong><br />
+            <a href="mailto:hello@wellbeing.com">hello@wellbeing.com</a>
+          </div>
+          <div class="social-icons">
+            <a href="#"><img src="/icons/twitter.png" alt="Twitter" /></a>
+            <a href="#"><img src="/icons/linkedin.png" alt="LinkedIn" /></a>
+            <a href="#"><img src="/icons/instagram.png" alt="Instagram" /></a>
+          </div>
+        </div>
+
+        <div class="footer">
+          <img
+            class="footer-logo"
+            src="/icons/logo.png"
+            alt="BeingWell Logo"
+            width="50"
+          />
+          <p>Copyright © BeingWell</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
